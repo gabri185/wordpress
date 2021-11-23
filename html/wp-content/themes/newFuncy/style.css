@@ -14,5 +14,44 @@ This theme, like WordPress, is licensed under the GPL.
 Use it to make something cool, have fun, and share what you've learned with others.
 */
 body{
-    background-color: #5b9dd9;
+    background-color: red;
 }
+.rojo{
+    background-color: yellow;
+}
+
+#cabecera{
+    background-color: yellow;
+    text-align: center;
+}
+#imagen{
+    display:block;
+    margin:auto;
+    width: 668px;
+    height: 384px;
+}
+#static{
+    position: static;
+}
+#relative{
+    font-size: 10px;
+    padding-top: 50px;
+    display:block;
+    margin:auto;
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+}
+#fixed{
+    position: fixed;
+}
+#absolute{
+    position: absolute;
+    bottom: 50px;
+    right: 0;
+    width: 200px;
+    height: 80px;
+    border: 3px solid #73AD21;
+}
+
